@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "common.css";
+
+
+/* header */
+header{width:1000px;height:90px;margin:10px auto;}
+.log{background:url(../images/log.png) no-repeat;width:240px;height: 85px;}
+.nav{margin-left:390px;}
+.nav li{float:left;line-height: 85px;font-style:40px;padding-right: 20px;font-size:18px;}
+footer{width:100%;background-color: #f2f5f5;}
+.parter{width:1000px;margin:0 auto;padding-left:36px;}
+.parter p{text-align: center;height:35px;line-height:40px;font-weight: bold}
+.parter ul li{float:left;padding-right:20px;}
+.tail{width:100%;height:100px;background-color: #333333}
+.tail ul{width:600px;margin:0 auto;padding-top:22px;padding-left:220px;}
+.tail ul li{float: left;color: #fff;font-size:16px;}
+.tail ul li a{ursor:pointer;text-decoration: none;color:#fff;}
+article{width:1000px;margin:0 auto;}
+.step{width:1000px;margin:0 auto;}
+.step1,.step2,.step3,.step4{width:266px;height:60px;position: relative;text-align:center;line-height:60px;font-size:16px;font-weight:bold;}
+.step1{background: url(../images/green.png);z-index: 10000;color:#fff;}
+.step2{background: url(../images/gray.png);z-index: 9999;margin-left:-40px;color:black;}
+.step3{background: url(../images/gray.png);margin-left:-40px;z-index: 1000;color:black;}
+.step4{background: url(../images/gray.png);margin-left:-40px;color:black;}
+.num1{color:#fff;font-size:24px;margin-right: 15px}
+.content{border:2px solid #ccc; background:#f7f7f7; padding:50px; margin-top:30px;height:600px;}
+.floatl form dl {padding-bottom: 35px}
+.floatl form dl dt{float: left;}
+.floatl form dl dd{float: left;}
+.floatr img{width:400px;height:240px;}
+.read{color:#b3b3b3;text-align:center;width:100%;}
+.aaa{width:45%;height:240px;margin-left:500px;}
+.tile{color:#9ddc2b;}
+.buttom1{width:100px;height:45px;border-radius: 30px;background-color:#8e8e90;margin-left:260px;margin-top:20px;color:#fff;font-weight:bold;line-height:45px;text-align:center;float:left;}
+.buttom2{width:100px;height:45px;border-radius: 30px;background-color:#9ddc2b;margin-left:50px;margin-top:20px;float:left;line-height:45px;text-align:center;color:#fff;font-weight:bold;}
+a {cursor:pointer;text-decoration: none;color:black;}
+a:hover{cursor:pointer;font-weight:bold;}

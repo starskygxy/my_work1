@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+@import "common.css";
+
+/* 主体 */
+.main{width: :100%;}
+.top_classify{width:1200px;margin:30px auto 0px;}
+.top_classify_frame{width:1090px;height:130px;margin:0 auto;border:1px solid #e6e6e6;padding:0 20px;}
+.top_classify_top{width:100%;height:63px;padding-top:15px;border-bottom:1px dotted #e6e6e6;}
+.top_classify_bottom{width:100%;height:22px;padding-top:15px;}
+.top_classify_top dl,.top_classify_bottom dl{float:left }
+.top_classify_top dl dt,.top_classify_bottom dl dt{width:45px;height:20px;background: #9ddc2a;color: white;border-radius: 3px;text-align: center;margin-left:16px;float:left }
+.top_classify_top dl dd,.top_classify_bottom dl dd{margin-left:40px;float:left;}
+.top_classify_top dl dd a,.top_classify_bottom dl dd a{text-decoration: none;color:#000;}
+.top_classify_top dl dd a:hover,.top_classify_bottom dl dd a:hover{font-weight: bold }
+#action{color:#9ddc2a;}
+.dl2{line-height: 50px;padding-left: 40px}
+
+/* 图片 */
+.center_background{width:100%;height:1500px;background:#d0eefd;padding-top:20px;}
+.center_main_img{width: 1200px;margin:0 auto;}
+          .img_part1{width:380px;height:447px;border:1px solid #d7d3d3;margin-right:15px;padding-left:1px;padding-top:1px;margin-bottom:26px; background:#fff;}
+          .font_part_left{width:322px;height:178px;float: left;}
+          .font_part_right{width:58px;height:178px;float: left;}
+          .font_part_top{width:100%;height:66%;border-bottom: 4px solid #fe7a7a}
+          .font_part_top dl{padding-top:20px;padding-left:15px; }
+          .font_part_top dl dt{font-size:20px;}
+          .font_part_top dl dd{font-size:16px;color:#959595;line-height:40px;overflow:hidden;white-space:nowrap;text-overflow: ellipsis;list-style-position:inside;}
+          .font_part_top dl p{font-size:14px;}
+          .font_part_botton button{width:86px;height:28px;color:#fff;border-radius:20px;background:#fe7a7a;border:none;outline:none;cursor:pointer;margin-left:150px;}
+          .font_part_top i{color:#4cbedf;position:relative;top:100px;left:15px;font-style: normal;font-weight:bold;}
+           .more_browse{width:1200px;margin:0 auto;}
+          .more_browse p{width:100%;height:40px;background: #fff;text-align:center;line-height:40px; margin-bottom:20px;color:#8c8d8d;}

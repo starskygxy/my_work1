@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "common.css";
+
+/* footer */
+footer{width:100%;background-color: #f2f5f5;}
+.parter{width:1000px;margin:0 auto;padding-left:36px;}
+.parter p{text-align: center;height:35px;line-height:40px;font-weight: bold}
+.parter ul li{float:left;padding-right:20px;}
+.tail{width:100%;height:100px;background-color: #333333}
+.tail ul{width:600px;margin:0 auto;padding-top:22px;padding-left:220px;}
+.tail ul li{float: left;color: #fff;font-size:16px;}
+.tail ul li a{ursor:pointer;text-decoration: none;color:#fff;}
+a {cursor:pointer;text-decoration: none;color:black;}
+a:hover{cursor:pointer;font-weight:bold;}

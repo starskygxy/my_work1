@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "common.css";
+
+/* header */
+.header{width:1000px;height:90px;margin:10px auto;}
+.log{background:url(../images/log.png) no-repeat;width:240px;height: 85px;}
+.nav{margin-left:390px;}
+.nav li{float:left;line-height: 85px;font-style:40px;padding-right: 15px;font-size:18px;}
+.center{background:#3dafc7 url(../images/center.jpg) no-repeat center;width:100%;height: 449px;overflow: hidden;}
+.foot{width:100%;background-color: #f2f5f5;}
+.parter{width:1000px;margin:0 auto;padding-left:36px;}
+.parter p{text-align: center;height:35px;line-height:40px;font-weight: bold}
+.parter ul li{float:left;padding-right:20px;}
+.tail{width:100%;height:100px;background-color: #333333}
+.tail ul{width:600px;margin:0 auto;padding-top:22px;padding-left:220px;}
+.tail ul li{float: left;color: #fff;font-size:16px;}
+.pos{width:1000px;margin:0 auto;}
+.login{width:260px;height:200px;background-color:#f3f3f3;border-radius: 20px;position: relative;top:120px;left:750px;}
+.yh{width:100%;height:30px;font-size:20px;font-weight:bold;padding-top:15px;padding-bottom:10px;padding-left:20px;}
+input[type="text"],input[type="password"]{height:20px;margin-left:20px;margin-bottom: 10px;width:200px;}
+.login p{margin-left:190px;font-size:14px;}
+.submit{margin-left:20px;}
+.submit input{width:120px;height:45px;border-radius:10px;background-color:#00a8e2;color:#fff;font-size: 18px;line-height:45px;}
+.tail ul li a{ursor:pointer;text-decoration: none;color:#fff;}
+a {cursor:pointer;text-decoration: none;color:black;}
+a:hover{cursor:pointer;font-weight:bold;}

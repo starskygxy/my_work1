@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "common.css";
+
+/* header */
+header{width:1200px;height:126px;margin:0 auto;}
+.logo{width:240px;height:85px;background: url(../images/log.png) no-repeat;position: relative;top:40px;}
+.search{width:487px;height:43px;border:1px solid #cfcfcf;position: relative;top:64px;overflow: hidden;}
+.search select{width:75px;height:43px;line-height: 43px;border:none;padding-left: 15px;font-weight: bold;color: #9a9a9a; float:left;}
+.search select option{font-weight: bold;color: #9a9a9a}
+.search  input[type="text"]{width:330px;height: 43px;border:none;outline:medium;font-sizeul no-repeat;border:none; float:left;}
+.search  input[type="button"]{width:73px;height: 42.5px; float:right;background:url(../images/search.jpg) no-repeat;border:none;}
+nav{width:100%;height:78px;border-bottom:#959595 6px solid}
+.nav_top{width:1200px;height:76px;margin:0 auto;}
+.nav_top ul{width:886px;height:76px;}
+.nav_top ul li{float:left;width:126px;height:76px;line-height:76px;text-align: center;font-family: '微软雅黑';font-size:20px;}
+.nav_top ul li a{color:#000;text-decoration: none;}
+.nav_top ul li a:hover{color:#9ddc29;}
+.action{width:126px;border-bottom:5px solid #9ddc29;}
+.tolog{width:104px;height:76px;line-height:76px;text-align:right;}
+.tolog span{font-size: 20px}
+.tolog span a{color:#b5b5b5;text-decoration:none;}
+.tolog span a:hover{font-weight:bold;}
